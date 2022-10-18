@@ -1,0 +1,13 @@
+
+#include<stdio.h>
+int main(){
+	int a,b,;
+	for(a=10;a>=1;a--){
+		printf("\n");
+		for(b=9;b>=a;b--){
+			printf("%d*%d=%d ",b,a,a*b);
+			
+		}
+	}
+	printf("\n\n");
+} 
